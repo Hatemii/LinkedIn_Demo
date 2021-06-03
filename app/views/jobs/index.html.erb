@@ -6,6 +6,7 @@
             <th>Title</th>
             <th>Description</th>
             <th>User</th>
+            <th>Date Post</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -15,11 +16,12 @@
             <td><%= job.title %></td>
             <td><%= job.description %></td>
             <td><%= job.user.userHandle %></td>
+            <td><%= job.created_at.strftime("%d/%m/%Y") %></td>
             <td>
                 <%= link_to 'Show', job, class: "btn btn-info"  %>
-                <% if current_user && current_user.admin? %> |
-                <%= link_to 'Edit', edit_job_path(job), class: "btn btn-success"  %> |
-                <%= link_to 'Destroy', job, class: "btn btn-danger" , method: :delete, data: { confirm: 'Are you sure?' }%>
+                <% if current_user == job.user %> |
+                    <%= link_to 'Edit', edit_job_path(job), class: "btn btn-success"  %> |
+                    <%= link_to 'Destroy', job, class: "btn btn-danger" , method: :delete, data: { confirm: 'Are you sure?' }%>
                 <% end %>
             </td>
 
