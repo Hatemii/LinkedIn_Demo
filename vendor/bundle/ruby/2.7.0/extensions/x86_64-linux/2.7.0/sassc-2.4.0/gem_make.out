@@ -1,12 +1,12 @@
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-/home/user/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20210603-485430-4s39sr.rb extconf.rb
+/home/user/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210604-5658-hrik0j.rb extconf.rb
 creating Makefile
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make "DESTDIR=" clean
+make DESTDIR\= clean
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make "DESTDIR="
+make DESTDIR\=
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -76,5 +76,5 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make "DESTDIR=" install
-/usr/bin/install -m 0755 libsass.so ./.gem.20210603-485430-3gjh2v/sassc
+make DESTDIR\= install
+/usr/bin/install -m 0755 libsass.so ./.gem.20210604-5658-153j0ih/sassc

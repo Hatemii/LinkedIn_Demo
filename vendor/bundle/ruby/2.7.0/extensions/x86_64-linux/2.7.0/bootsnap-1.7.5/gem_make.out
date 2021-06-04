@@ -1,0 +1,15 @@
+current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+/home/user/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210604-5658-msljrd.rb extconf.rb
+creating Makefile
+
+current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -m 0755 bootsnap.so ./.gem.20210604-5658-1jqqza2/bootsnap

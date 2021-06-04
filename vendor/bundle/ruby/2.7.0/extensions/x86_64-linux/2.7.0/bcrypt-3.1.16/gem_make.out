@@ -1,12 +1,12 @@
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-/home/user/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20210603-485430-55q0z2.rb extconf.rb
+/home/user/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210604-5658-lrts4a.rb extconf.rb
 creating Makefile
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-make "DESTDIR=" clean
+make DESTDIR\= clean
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-make "DESTDIR="
+make DESTDIR\=
 compiling bcrypt_ext.c
 compiling crypt_blowfish.c
 gcc  -D__SKIP_GNU     -c -o x86.o x86.S
@@ -21,5 +21,5 @@ cc1: warning: unrecognized command line option â€˜-Wno-constant-logical-operandâ
 linking shared-object bcrypt_ext.so
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-make "DESTDIR=" install
-/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20210603-485430-i71su2
+make DESTDIR\= install
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20210604-5658-skcsy6

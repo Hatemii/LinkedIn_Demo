@@ -1,5 +1,5 @@
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
-/home/user/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20210603-485430-1jd1sjc.rb extconf.rb
+/home/user/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210604-5658-mxaesm.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for linux/io_uring.h... yes
@@ -12,10 +12,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
-make "DESTDIR=" clean
+make DESTDIR\= clean
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
-make "DESTDIR="
+make DESTDIR\=
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -117,5 +117,5 @@ cc1: warning: unrecognized command line option â€˜-Wno-constant-logical-operandâ
 linking shared-object nio4r_ext.so
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
-make "DESTDIR=" install
-/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20210603-485430-1ysdmet
+make DESTDIR\= install
+/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20210604-5658-1f16ph

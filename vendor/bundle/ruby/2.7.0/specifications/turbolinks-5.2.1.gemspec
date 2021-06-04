@@ -14,10 +14,10 @@ Gem::Specification.new do |s|
   s.email = "david@loudthinking.com".freeze
   s.homepage = "https://github.com/turbolinks/turbolinks".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "3.1.4".freeze
+  s.rubygems_version = "3.2.19".freeze
   s.summary = "Turbolinks makes navigating your web application faster".freeze
 
-  s.installed_by_version = "3.1.4" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.2.19" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

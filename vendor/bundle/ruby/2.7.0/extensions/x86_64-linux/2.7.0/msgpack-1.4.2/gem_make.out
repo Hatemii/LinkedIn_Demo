@@ -1,5 +1,5 @@
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/msgpack-1.4.2/ext/msgpack
-/home/user/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20210603-485430-uq2a6q.rb extconf.rb
+/home/user/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210604-5658-ce2kep.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -13,10 +13,10 @@ checking for rb_hash_clear() in ruby.h... yes
 creating Makefile
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/msgpack-1.4.2/ext/msgpack
-make "DESTDIR=" clean
+make DESTDIR\= clean
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/msgpack-1.4.2/ext/msgpack
-make "DESTDIR="
+make DESTDIR\=
 compiling buffer.c
 compiling buffer_class.c
 buffer_class.c: In function ‘read_until_eof’:
@@ -82,5 +82,5 @@ compiling unpacker_ext_registry.c
 linking shared-object msgpack/msgpack.so
 
 current directory: /home/user/Desktop/LinkedIn_Demo/vendor/bundle/ruby/2.7.0/gems/msgpack-1.4.2/ext/msgpack
-make "DESTDIR=" install
-/usr/bin/install -m 0755 msgpack.so ./.gem.20210603-485430-1mea826/msgpack
+make DESTDIR\= install
+/usr/bin/install -m 0755 msgpack.so ./.gem.20210604-5658-11q44em/msgpack
