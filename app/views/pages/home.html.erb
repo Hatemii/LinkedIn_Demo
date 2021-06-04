@@ -1,15 +1,7 @@
-<h1>My App</h1>
-
-<% if current_user %>
-<%= link_to "Sign Out", destroy_user_session_path, class: "btn btn-primary" , method: :delete %>
-
-<% else %>
-<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary" %> |
-<%= link_to "Sign In",  new_user_session_path, class: "btn btn-primary" %>
-
-<% end %>
-
-<br />
-<br />
-
-<%= link_to "Jobs",  jobs_path, class: "btn btn-primary" %>
+<div class="homepage">
+    <h2>Welcome!</h2>
+    <p>Thanks for joining our website </p>
+    <br>
+    <hr>
+    <p>where work happens</p>
+</div>

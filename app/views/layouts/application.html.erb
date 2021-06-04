@@ -13,6 +13,27 @@
 </head>
 
 <body>
+    <nav class="nav">
+            <div class="container-fluid">
+                <a href="/"><img src="<%= asset_path('logo2.png') %>" /></a>
+            
+                <ul>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/jobs">JOBS</a></li>
+                    
+                    <% if current_user %>
+                            <!-- <li><a href=" /users/<%= current_user.id %>">MY PROFILE</a></li> -->
+                            <li>
+                                <%= link_to "LOG OUT",  destroy_user_session_path, method: :delete %>
+                            </li>
+                    <% else %>
+                            <li><a href="/users/sign_in" , new_user_session_path>LOG IN</a></li>
+                            <li><a href="/users/sign_up", new_user_registration_path>SIGN UP</a></li>
+                    <% end %>
+                </ul>
+            </div>
+    </nav>
+
     <%= render "layouts/alerts" %>
     <div class="container">
         <%= yield %>

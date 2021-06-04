@@ -19,9 +19,71 @@
 html {
   font-size: 18px;
   margin: auto;
+  font-family: Libre Baskerville;
 }
 
 table td,
 th {
   text-align: center;
+}
+
+//  TABLE
+table {
+  margin-top: 3rem;
+}
+
+table td,
+th {
+  text-align: center;
+}
+
+//  NAVBAR
+.nav {
+  text-align: center;
+  background-color: rgb(16, 27, 85);
+  height: 6rem;
+}
+
+.nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  float: right;
+}
+
+.nav li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-right: 40px;
+  padding-left: 10px;
+  float: left;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 3px 0px;
+}
+
+li a:hover {
+  color: rgb(161, 209, 30);
+  background-color: transparent;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(161, 209, 30);
+}
+
+.nav img {
+  float: left;
+  width: 80px;
+  margin-top: 10px;
+}
+
+// HOMEPAGE
+.homepage {
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
 }

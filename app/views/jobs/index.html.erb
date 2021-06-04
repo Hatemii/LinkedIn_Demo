@@ -1,4 +1,8 @@
-<h1>Jobs</h1>
+<h1 class="text-center">All Jobs</h1>
+<hr>
+<br>
+
+<%= link_to 'New Job' , new_job_path, class: "btn btn-primary" %>
 
 <table class="table table-striped">
     <thead>
@@ -30,8 +34,4 @@
     </tbody>
 </table>
 
-<br>
 
-
-<%= link_to 'New Job', new_job_path, class: "btn btn-primary" %>
-<%= link_to 'Home', root_path, class: "btn btn-info" %>
