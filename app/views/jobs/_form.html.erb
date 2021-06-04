@@ -11,16 +11,18 @@
 </div>
 <% end %>
 
-<div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
+<div class="form-group">
+    <%= form.label :title, class: "col-md-4 control-label"%>
+    <div class="col-md-8">
+        <%= form.text_field :title , class: "form-control" %>
+    </div>
+
+    <%= form.label :description, class: "col-md-4 control-label" %>
+    <div class="col-md-8"></div>
+        <%= form.text_area :description, class: "form-control"%>
+    </div>
+
+    <%= form.submit "Submit" , class: "btn btn-default btn-primary" %>
+  </div>
 </div>
-
-<div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description %>
-</div>
-
-<button type="submit" class="btn btn-primary">Post Job</button>
-
 <% end %>
